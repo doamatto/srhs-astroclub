@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" conetnt="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    {{ $opts := (dict "targetPath" "/style.css" "outputStyle" "compressed") }}
 	    {{ $sass := resources.Get "sass/style.scss"}}
 	    {{ $style := $sass | resources.ExecuteAsTemplate "style.main.scss" . | toCSS $opts | resources.Minify }}
