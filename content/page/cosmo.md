@@ -24,6 +24,5 @@ Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Lorem ipsu
 		i.src = "https://www.instagram.com/explore/tags/srhscosmo/";
 		b.insertAdjacentElement("afterend", i)
 		b.style.display = "none";
-		a.removeEventListener();
 	}, false);
 </script>
