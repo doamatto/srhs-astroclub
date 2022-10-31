@@ -22,10 +22,9 @@ timeZone= "UTC"
 	disableHTML= true
 
 [params]
-  mainSections = [ "blog" ]
+  mainSections = [ "recaps" ]
 
 [permalinks]
-  blog = "/blog/:filename/"
   page = "/:filename/"
   
 [privacy]
