@@ -1,0 +1,11 @@
+Hello,
+
+I'm Matthew Ronchetto, vice-president of the SRHS Astronomy club
+and the developer of this website.
+
+There's not much to be said here. But, this site is open-source.
+
+You can view the source code at:
+https://github.com/doamatto/srhs-astroclub
+
+— heyy@maatt.fr
