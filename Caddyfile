@@ -1,0 +1,30 @@
+astroclub.maatt.fr {
+	# 404 redirects
+	handle_errors {
+		rewrite * /404.html
+		encode zstd gzip
+		file_server {
+			precompressed br
+		}
+	}
+	# Caching
+	header Cache-Control "max-age=3600"
+	header /static/* Cache-Control "max-age=31536000"
+
+	# Genearl headers
+	header Permissions-Policy "interest-cohort=(), browsing-topics=(), join-ad-interest-group=(), run-ad-auction=()"
+	header X-Content-Type-Options "nosniff"
+	header X-Frame-Options "DENY"
+	header Referrer-Policy "no-referrer"
+	header Strict-Transport-Security "max-age=31536000;includeSubDomains;preload"
+	header Vary "Origin"
+	header Expect-CT "max-age=86400, enforce"
+	header Cross-Origin-Opener-Policy "same-origin; report-to='mailto:security@doamatto.xyz'"
+	header Cross-Origin-Embedder-Policy "require-corp; report-to='mailto:security@doamatto.xyz'"
+
+	root * /srv/apps/caddy/sites/astroclub.maatt.fr/public
+	encode zstd gzip
+	file_server {
+		precompressed br
+	}
+}
