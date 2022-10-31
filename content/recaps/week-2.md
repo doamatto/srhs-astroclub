@@ -3,12 +3,12 @@ title= "Week 2— 31 october 2022"
 +++
 
 [Access the slideshow &rarr;](https://docs.google.com/presentation/d/1xhAwROYVh6lE8vyXqzXMqiqtADNeDMeyPsbnMEIyKZE)<br/>
-[Access the meeting notes &rarr;](/meeting/2022-10-31.txt)
+<!--[Access the meeting notes &rarr;](/meeting/2022-10-31.txt)-->
 
 ---
 
 ## Astronomy Picture of the Day
-![Placeholder]()
+![LDN 43: The Cosmic Bat Nebula](/img/apod/2022-10-31.jpg)
 
 ## Trivia
 - Supersymmetric string theory— an attempt to explain all of the particles and fundamental forces of nature in one theory by modeling them as vibrations of tiny supersymmetric strings
