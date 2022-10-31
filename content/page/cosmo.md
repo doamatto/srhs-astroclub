@@ -9,18 +9,21 @@ Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Lorem ipsu
 ### Cosmo art
 <div id="gdpr">
 	<p>This website values your privacy. By clicking the button below, this website will load an embed that may contain trackers or other scripts that harm your privacy. An alternative method is provided below.</p>
-	<button id="iframe" class="btn">Consent to allowing this page to load this frame.</a>
+	<button id="i" class="btn">Consent to allowing this page to load this embed.</a>
 </div>
 <p>
 	You can view all pictures tagged with #srhscosmo on <a href="https://www.instagram.com/explore/tags/srhscosmo">Instagram.com.</a>
 </p>
 <script>
-	document.getElementById("gdpr").style.display = "block";
-	document.getElementById("iframe").addEventListener("click", () => {
-		var iframe = document.createElement("iframe");
-		iframe.height = "500px";
-		iframe.src = "https://www.instagram.com/explore/tags/srhscosmo/";
-		document.getElementById("gdpr").insertAdjacentElement("afterend", iframe)
-		document.getElementById("gdpr").style.display = "none";
+	var a = document.getElementById("i")
+	var b = document.getElementById("gdpr")
+	b.style.display = "block";
+	a.addEventListener("click", () => {
+		var i = document.createElement("i");
+		i.height = "500px";
+		i.src = "https://www.instagram.com/explore/tags/srhscosmo/";
+		b.insertAdjacentElement("afterend", i)
+		b.style.display = "none";
+		a.removeEventListener();
 	}, false);
 </script>
