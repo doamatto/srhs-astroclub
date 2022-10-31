@@ -14,7 +14,7 @@ srhsastro.maatt.fr {
 	# Genearl headers
 	header Permissions-Policy "interest-cohort=(), browsing-topics=(), join-ad-interest-group=(), run-ad-auction=()"
 	header X-Content-Type-Options "nosniff"
-	header X-Frame-Options "DENY"
+	#header X-Frame-Options "DENY" ### bandaid fix for not loading frame in prod 
 	header Referrer-Policy "no-referrer"
 	header Strict-Transport-Security "max-age=31536000;includeSubDomains;preload"
 	header Vary "Origin"
