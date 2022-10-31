@@ -5,7 +5,7 @@ title= "Cosmo— Our mascot"
 ### Cosmo art
 <div id="gdpr">
 	<p>This website values your privacy. By clicking the link below, this website may load trackers or other scripts and embeds that may harm your privacy. An alternative should be provided below this window.</p>
-	<button id="iframe">Consent to allowing this page to load this frame.</a>
+	<button id="iframe" class="btn">Consent to allowing this page to load this frame.</a>
 </div>
 <p>
 	You can view all pictures tagged with #srhscosmo on <a href="https://www.instagram.com/explore/tags/srhscosmo">Instagram.com.</a>
