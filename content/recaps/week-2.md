@@ -20,10 +20,7 @@ The solar system has many theories on its formation. Two of the most prevalant a
 The nebular hypothesis is the most widely accepted theory
 
 ## Upcoming events
-Leonids meteor shower
-  - 16 to 19 november 2022
-Lunar eclipse
-  - 8 november 2022
-Planned trip to San Diego Air & Space Museum
-  - 19 november 2022
+- Leonids meteor shower— 16 to 19 november 2022
+- Lunar eclipse— 8 november 2022
+- Planned trip to San Diego Air & Space Museum— 19 november 2022
   
