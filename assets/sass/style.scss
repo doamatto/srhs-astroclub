@@ -29,6 +29,7 @@ body {
 		width: 100%;
 		font-weight: 400;
 		min-width: 100px;
+		font-size: .9rem !important;
 		cursor: pointer;
 		&:hover, &:focus {
 			background: #fd0;
@@ -38,7 +39,7 @@ body {
 }
 
 header {
-	background: #003594;
+	background: #22307d;
 	color: #fff;
 	display: flex;
 	flex-direction: column;
