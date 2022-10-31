@@ -1,4 +1,4 @@
-baseURL= "https://astroclub.maatt.fr"
+baseURL= "https://srhsastro.maatt.fr"
 disableKinds= ["taxonomy", "term"]
 disableHugoGeneratorInject= true
 enableEmoji= true
