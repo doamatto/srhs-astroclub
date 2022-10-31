@@ -63,13 +63,31 @@ header {
 		color: inherit !important;
 	}
 }
-
 main,
 footer {
 	@media (min-width: 800px) { max-width: 70ch; }
 	max-width: 70%;
 	margin: 0 auto;
+	section {
+		margin: 1rem 0;
+	}
 	iframe { width: 100%; }
 }
-
 footer { margin-bottom: 3rem; }
+
+.sbs {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	a {
+		width: 100%;
+		padding: .5rem 0;
+	}
+}
+#gdpr {
+	display: none;
+	max-width: 50ch;
+	background: rgba(11,12,12,0.2);
+	padding: 2rem;
+	margin: 0 auto;
+}
