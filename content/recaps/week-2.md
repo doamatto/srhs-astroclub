@@ -11,12 +11,12 @@ title= "Week 2— 31 october 2022"
 ![LDN 43: The Cosmic Bat Nebula](/img/apod/2022-10-31.jpg)
 
 ## Trivia
-- Supersymmetric string theory— an attempt to explain all of the particles and fundamental forces of nature in one theory by modeling them as vibrations of tiny supersymmetric strings
-- Loop quantum gravity theory— aims to merge quantum mechanics and general relativity in an attempt to develop quantum theory of gravity. Space and time composed of finite loops woven into a network
+- [Supersymmetric string theory—](https://en.wikipedia.org/wiki/Superstring_theory) an attempt to explain all of the particles and fundamental forces of nature in one theory by modeling them as vibrations of tiny supersymmetric strings
+- [Loop quantum gravity theory—](https://en.wikipedia.org/wiki/Loop_quantum_gravity) aims to merge quantum mechanics and general relativity in an attempt to develop quantum theory of gravity. Space and time composed of finite loops woven into a network
 
 The solar system has many theories on its formation. Two of the most prevalant are: 
-  - Tidal Theory / Chamberlain-Moulton Theory— passing star pulled dust and debris from the forming sun; the pulled debris formed the planets
-  - Nebular hypothesis— formed by the gravitational collapse of a giant molecular cloud spanning several light-years
+  - Tidal Theory— passing star pulled dust and debris from the forming sun; the pulled debris formed the planets
+  - [Nebular hypothesis—](https://en.wikipedia.org/wiki/Nebular_hypothesis) formed by the gravitational collapse of a giant molecular cloud spanning several light-years
 The nebular hypothesis is the most widely accepted theory
 
 ## Upcoming events
