@@ -1,0 +1,49 @@
+baseURL= "https://astroclub.maatt.fr"
+disableKinds= ["taxonomy", "term"]
+disableHugoGeneratorInject= true
+enableEmoji= true
+enableRobotsTXT= true
+removePathAccents= true
+timeZone= "UTC"
+
+[build]
+	useResourceCacheWhen= "fallback"
+
+[imaging]
+	[imaging.exif]
+		disableLatLong= true
+
+[markup]
+	[markup.goldmark]
+		[markup.goldmark.renderer]
+			unsafe= true
+
+[minify]
+	disableHTML= true
+
+[params]
+  mainSections = [ "blog" ]
+
+[permalinks]
+  blog = "/blog/:filename/"
+  page = "/:filename/"
+  
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    enableDNT = true
+    simple = true
+  [privacy.youtube]
+    privacyEnhanced = true
+
+[sitemap]
+	changefreq= "weekly"
+	filename= "sitemap.xml"
+	priority= 0.5
