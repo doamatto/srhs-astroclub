@@ -15,14 +15,14 @@ Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Lorem ipsu
 	You can view all pictures tagged with #srhscosmo on <a href="https://www.instagram.com/explore/tags/srhscosmo">Instagram.com.</a>
 </p>
 <script>
-	var a = document.getElementById("i")
-	var b = document.getElementById("gdpr")
+	var a = document.getElementById("i");
+	var b = document.getElementById("gdpr");
 	b.style.display = "block";
 	a.addEventListener("click", () => {
-		var i = document.createElement("i");
+		var i = document.createElement("iframe");
 		i.height = "500px";
 		i.src = "https://www.instagram.com/explore/tags/srhscosmo/";
-		b.insertAdjacentElement("afterend", i)
+		b.insertAdjacentElement("afterend", i);
 		b.style.display = "none";
 	}, false);
 </script>
