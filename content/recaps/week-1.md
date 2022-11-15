@@ -3,7 +3,7 @@ title= "Week 1— 24 october 2022"
 +++
 
 [Access the slideshow &rarr;](https://docs.google.com/presentation/d/18FGNhy6_GU4wyjj-kSxJKel4p9zaZzOZt_pwCBZhS30)<br/>
-<!--[Access the meeting notes &rarr;](/meeting/2022-10-24.txt)-->
+[Access the meeting notes &rarr;](/meeting/2022-10-24.txt)
 
 ---
 
