@@ -22,7 +22,7 @@ srhsastro.maatt.fr {
 	header Cross-Origin-Opener-Policy "same-origin; report-to='mailto:security@doamatto.xyz'"
 	header Cross-Origin-Embedder-Policy "require-corp; report-to='mailto:security@doamatto.xyz'"
 
-	root * /srv/apps/caddy/sites/srhsastro.maatt.fr/public
+	root * /srv/srhsastro.maatt.fr/public
 	encode zstd gzip
 	file_server {
 		precompressed br
